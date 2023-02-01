@@ -1,0 +1,40 @@
+Single Parking Lot Object Oriented System Design
+=========================
+#Problem Statement
+.....................
+1. Parking lot is an open area designated for parking cars
+2. We will design a parking lot where a certain number of cars
+    can be parked certain amount of time.
+3. The parking lot have multiple slots. Each slot can have a single
+    vehicles parked in it.
+
+
+
+#Requirement
+.....................
+1. The parking lot should have multiple slots where customers can
+    park their vehicles.
+2. The system should not allow more vehicles than the maximum capacity.
+   If the parking is full, the system should able to show a message
+3. It will having many parking slots. The system should support multiple types
+    of parking slots such as Compact, Large, Motorcycle etc
+
+
+#Understand
+.............
+Parking Lot
+        -> List of Parking Spots
+        -> Max no of Compact Spot
+        -> Max no of Large Spot
+        -> Max no of Bike Spot
+
+Parking Spot
+        -> Compact Spot
+        -> Large Spot
+        -> Bike Spot
+
+Vehicles
+        -> Car
+        -> Truck
+        -> Motorcycle
+
